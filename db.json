@@ -1,0 +1,139 @@
+{
+  "employees": [
+    {
+      "name": "Rajan",
+      "gender": "Male",
+      "department": "Finance",
+      "role": "code",
+      "salary": "25000",
+      "status": false,
+      "id": 1
+    },
+    {
+      "name": "Abhishek",
+      "gender": "Male",
+      "department": "Enginerring",
+      "role": "code",
+      "salary": "25000",
+      "status": false,
+      "id": 2
+    },
+    {
+      "name": "Hritik",
+      "gender": "Female",
+      "department": "Finance",
+      "role": "accounts",
+      "salary": "25000",
+      "status": false,
+      "id": 3
+    },
+    {
+      "name": "Preeti",
+      "gender": "Female",
+      "department": "Medical",
+      "role": "ENT",
+      "salary": "250000",
+      "status": false,
+      "id": 4
+    },
+    {
+      "name": "Menka",
+      "gender": "Female",
+      "department": "Sales",
+      "role": "Medicine",
+      "salary": "10000",
+      "status": false,
+      "id": 5
+    },
+    {
+      "name": "Siya",
+      "gender": "Female",
+      "department": "Dents",
+      "role": "Doctor",
+      "salary": "100000",
+      "status": false,
+      "id": 6
+    },
+    {
+      "name": "Laal",
+      "gender": "Female",
+      "department": "Marketing",
+      "role": "sales",
+      "salary": "100000",
+      "status": false,
+      "id": 7
+    },
+    {
+      "name": "Hritika ",
+      "gender": "Female",
+      "department": "HR",
+      "role": "sales",
+      "salary": "100000",
+      "status": false,
+      "id": 8
+    },
+    {
+      "name": "Hritika ",
+      "gender": "Female",
+      "department": "IT",
+      "role": "sales",
+      "salary": "100000",
+      "status": false,
+      "id": 9
+    },
+    {
+      "name": "Raman",
+      "gender": "Female",
+      "department": "IT",
+      "role": "Code",
+      "salary": "100000",
+      "status": false,
+      "id": 10
+    },
+    {
+      "name": "Ranjana",
+      "gender": "Female",
+      "department": "IT",
+      "role": "Code",
+      "salary": "1000000",
+      "status": false,
+      "id": 11
+    },
+    {
+      "name": "Uttam",
+      "gender": "Male",
+      "department": "Finance",
+      "role": "sales",
+      "salary": "1000000",
+      "status": false,
+      "id": 12
+    },
+    {
+      "name": "Uttam",
+      "gender": "Male",
+      "department": "HR",
+      "role": "sales",
+      "salary": "1000000",
+      "status": false,
+      "id": 13
+    },
+    {
+      "name": "Uttam",
+      "gender": "Male",
+      "department": "Finance",
+      "role": "sales",
+      "salary": "10000",
+      "status": false,
+      "id": 14
+    },
+    {
+      "name": "Uttama",
+      "gender": "Male",
+      "department": "Marketing",
+      "role": "sales",
+      "salary": "10000",
+      "status": false,
+      "id": 15
+    }
+  ]
+}
