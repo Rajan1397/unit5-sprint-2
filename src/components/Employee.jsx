@@ -9,6 +9,30 @@ const Emp = () => {
 
   const [employees, setEmployees] = React.useState([]);
 
+  // ascending
+  function asc() {
+    fetch(`http://localhost:3001/employee`)
+      .then((res) => res.json())
+      .then((res) => {
+        let updated = res.sort((a, b) => +a.salary - +b.salary);
+
+        setEmployees(updated);
+      })
+      .catch((err) => console.log(err));
+  }
+
+  // descending
+  const des = () => {
+    fetch(`http://localhost:3001/employee`)
+      .then((res) => res.json())
+      .then((res) => {
+        let updated = res.sort((a, b) => +b.salary - +a.salary);
+        // console.log(list.salary)
+        setEmployees(updated);
+      })
+      .catch((err) => console.log(err));
+  };
+
   const showMarketing = () => {
     let updated = employees.filter((item) => item.department === "Marketing");
     setEmployees(updated);
@@ -104,8 +128,8 @@ const Emp = () => {
 
       <br />
       <br />
-      <button>Sort By Salary Ascending</button>
-      <button>Sort by Salary Descending</button>
+      <button onClick={() => asc()}>Sort By Salary Ascending</button>
+      <button onClick={() => des()}>Sort by Salary Descending</button>
 
       {employees.map((item) => {
         return (
